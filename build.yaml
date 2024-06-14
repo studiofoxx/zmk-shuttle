@@ -1,6 +1,6 @@
 # GitHub Actions matrix
 ---
 include:
-  - board: airport_shuttle
-    shield: nrf52840dk_nrf5284p
+  - board: nrf52840dk_nrf52840
+    shield: airport_shuttle
 
