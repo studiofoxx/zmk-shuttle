@@ -60,40 +60,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4)   							RC(3,7) RC(3,8) RC(3,9) RC(3,10
 		io-channels = <&adc 2>;
 		output-ohms = <2000000>;
 		full-ohms = <(2000000 + 820000)>;
-	};
 
-
-&flash0 {
-	/*
-	 * For more information, see:
-	 * http://docs.zephyrproject.org/latest/devices/dts/flash_partitions.html
-	 */
-	partitions {
-		compatible = "fixed-partitions";
-		#address-cells = <1>;
-		#size-cells = <1>;
-
-		boot_partition: partition@0 {
-			label = "adafruit_boot";
-			reg = <0x000000000 0x0000C000>;
-		};
-		code_partition: partition@26000 {
-			label = "code_partition";
-			reg = <0x00026000 0x000d2000>;
-		};
-
-		/*
-		 * The flash starting at 0x000f8000 and ending at
-		 * 0x000fffff is reserved for use by the application.
-		 */
-
-		/*
-		 * Storage partition will be used by FCB/LittleFS/NVS
-		 * if enabled.
-		 */
-		storage_partition: partition@f8000 {
-			label = "storage";
-			reg = <0x000f8000 0x00008000>;
 		};
 	};
 };
