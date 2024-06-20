@@ -1,6 +1,6 @@
 # GitHub Actions matrix
 ---
 include:
-  - board: ebyte_e73_tbb_nrf52832
+  - board: nrf52_sparkfun
     shield: airport_shuttle
 
