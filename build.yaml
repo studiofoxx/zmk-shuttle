@@ -1,6 +1,6 @@
 # GitHub Actions matrix
 ---
 include:
-  - board: nrf52_sparkfun
+  - board: nrf52_adafruit_feather
     shield: airport_shuttle
 
