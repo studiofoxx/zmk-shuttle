@@ -1,6 +1,6 @@
 # GitHub Actions matrix
 ---
 include:
-  - board: nrf52_adafruit_feather
+  - board: nice_nano_v2
     shield: airport_shuttle
 
