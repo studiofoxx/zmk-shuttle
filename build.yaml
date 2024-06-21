@@ -1,6 +1,4 @@
 # GitHub Actions matrix
 ---
-include:
-  - board: nice_nano_v2
-    shield: airport_shuttle
-
+board:
+  - airport_shuttle
