@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk-old
       remote: zmkfirmware
-      revision: main
+      revision: airport-shuttle
       import: app/west.yml
   self:
     path: config
