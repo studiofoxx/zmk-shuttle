@@ -1,2 +1,0 @@
-config SHIELD_airport_shuttle
-    def_bool $(shields_list_contains, airport_shuttle)

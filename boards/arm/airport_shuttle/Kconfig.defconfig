@@ -27,4 +27,7 @@ config ZMK_BLE
 config ZMK_USB
 	default y
 
+config I2C
+	default y
+
 endif # BOARD_AIRPORT_SHUTTLE
