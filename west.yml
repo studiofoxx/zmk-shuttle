@@ -1,11 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/AeternusCo/
+      url-base: https://github.com/zmkfirmware
   projects:
-    - name: zmk-old
+    - name: zmk
       remote: zmkfirmware
-      revision: airport-shuttle
+      revision: main
       import: app/west.yml
   self:
     path: config
